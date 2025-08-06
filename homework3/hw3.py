@@ -81,7 +81,7 @@ class Third:
         print(self.num)
 
     def avg(self):
-        if self.num:
+        if self.num:#монжо так 
             avg=sum(self.num)/len(self.num)
             print("Среднее значение:", avg)
         else:
